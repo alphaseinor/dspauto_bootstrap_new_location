@@ -1,0 +1,61 @@
+$primary: #ced4da;
+
+body {
+  margin-top: 0px;
+}
+
+#main-nav {
+  background: $primary;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px $primary;
+  opacity: 0.9;
+  background: #fff;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem;
+  }
+}
+
+.carousel-inner {
+}
+
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-image-1 {
+  background: url('../img/malone.jpg');
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url('../img/timing.jpg');
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url('../img/skidplate.jpg');
+  background-size: cover;
+}
+
+.carousel-image-4 {
+  background: url('../img/swaps.jpg');
+  background-size: cover;
+}
+
+.carousel-caption {
+  h2 {
+    background: #000;
+    opacity: 0.6;
+    border-radius: 0.5rem;
+  }
+  p {
+    background: #fff;
+    opacity: 0.6;
+    border-radius: 0.5rem;
+  }
+}
