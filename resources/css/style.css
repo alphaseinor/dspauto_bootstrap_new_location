@@ -18,12 +18,16 @@ body {
   padding-right: 1.4rem;
 }
 
+#featured-section {
+  margin-top: 8.5rem;
+}
+
 .carousel-item {
-  height: 75vh;
+  height: 90vh;
 }
 
 .carousel-image-0 {
-  background: url('../img/map.png') no-repeat center center fixed;
+  background: url('../img/thanksgiving.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -33,37 +37,51 @@ body {
 }
 
 .carousel-image-2 {
-  background: url('../img/timing.jpg') no-repeat center center fixed;
+  background: url('../img/maintenance.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
 .carousel-image-3 {
-  background: url('../img/skidplate.jpg') no-repeat center center fixed;
+  background: url('../img/suspension.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
 .carousel-image-4 {
-  background: url('../img/swaps.jpg') no-repeat center center fixed;
+  background: url('../img/cold.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.carousel-image-5 {
+  background: url('../img/transmission.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.carousel-image-6 {
+  background: url('../img/construction.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
 .carousel-caption h2 {
   background: #000;
-  opacity: 0.6;
+  opacity: 0.9;
   border-radius: 0.5rem;
 }
 .carousel-caption p {
   background: #fff;
-  opacity: 0.6;
+  opacity: 0.9;
   border-radius: 0.5rem;
 }
 .carousel-nav {
-  background: #000;
-  opacity: 0.6;
+  background: #3292a6;
+  opacity: 0.9;
   padding: 1rem;
   border-radius: 0.5rem;
 }
 
-#contact {
+#contact-section {
   height: 90vh;
+}
+
+.bg-success {
+  opacity: 0.8;
 }
