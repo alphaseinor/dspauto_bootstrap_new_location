@@ -1,87 +1,84 @@
 body {
-  margin-top: 0px;
-}
+  margin-top: 0px; }
 
 #main-nav {
-  background: #ced4da;
-}
+  background: #ced4da; }
 
 .navbar {
   box-shadow: 2px 2px 5px #ced4da;
   opacity: 0.9;
   background: #fff;
   font-size: 0.8rem;
-  text-transform: uppercase;
-}
-.navbar .nav-item {
-  font-size: 1.4rem;
-  padding-right: 1.4rem;
-}
-
-#featured-section {
-  margin-top: 8.5rem;
-}
+  text-transform: uppercase; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
 
 .carousel-item {
-  height: 90vh;
-}
+  height: 100vh; }
 
 .carousel-image-0 {
-  background: url('../img/thanksgiving.jpg') no-repeat center center fixed;
-  background-size: cover;
-}
+  background: url("../img/thanksgiving.jpg") no-repeat center fixed;
+  background-size: cover; }
 
 .carousel-image-1 {
-  background: url('../img/malone.jpg') no-repeat center center fixed;
-  background-size: cover;
-}
+  background: url("../img/malone.jpg") no-repeat center fixed;
+  background-size: cover; }
 
 .carousel-image-2 {
-  background: url('../img/maintenance.jpg') no-repeat center center fixed;
-  background-size: cover;
-}
+  background: url("../img/maintenance.jpg") no-repeat center fixed;
+  background-size: cover; }
 
 .carousel-image-3 {
-  background: url('../img/suspension.jpg') no-repeat center center fixed;
-  background-size: cover;
-}
+  background: url("../img/suspension.jpg") no-repeat center fixed;
+  background-size: cover; }
 
 .carousel-image-4 {
-  background: url('../img/cold.jpg') no-repeat center center fixed;
-  background-size: cover;
-}
+  background: url("../img/cold.jpg") no-repeat center fixed;
+  background-size: cover; }
 
 .carousel-image-5 {
-  background: url('../img/transmission.jpg') no-repeat center center fixed;
-  background-size: cover;
-}
+  background: url("../img/transmission.jpg") no-repeat center fixed;
+  background-size: cover; }
 
 .carousel-image-6 {
-  background: url('../img/construction.jpg') no-repeat center center fixed;
-  background-size: cover;
-}
+  background: url("../img/construction.jpg") no-repeat center fixed;
+  background-size: cover; }
 
 .carousel-caption h2 {
+  font-size: 1.25rem;
   background: #000;
-  opacity: 0.9;
-  border-radius: 0.5rem;
-}
+  opacity: 1;
+  border-radius: 0.5rem; }
+  @media (min-width: 600px) {
+    .carousel-caption h2 {
+      font-size: 2rem; } }
+  @media (min-width: 1200px) {
+    .carousel-caption h2 {
+      font-size: 4rem; } }
+  @media (min-width: 1800px) {
+    .carousel-caption h2 {
+      font-size: 7rem; } }
 .carousel-caption p {
+  font-size: 1rem;
   background: #fff;
-  opacity: 0.9;
-  border-radius: 0.5rem;
-}
+  opacity: 0.8;
+  border-radius: 0.5rem; }
+  @media (min-width: 600px) {
+    .carousel-caption p {
+      font-size: 1.5rem; } }
+  @media (min-width: 1200px) {
+    .carousel-caption p {
+      font-size: 2rem; } }
+  @media (min-width: 1800px) {
+    .carousel-caption p {
+      font-size: 2.5rem; } }
+
 .carousel-nav {
   background: #3292a6;
   opacity: 0.9;
   padding: 1rem;
-  border-radius: 0.5rem;
-}
+  border-radius: 0.5rem; }
 
-#contact-section {
-  height: 90vh;
-}
-
-.bg-success {
-  opacity: 0.8;
-}
+.sections {
+  height: 30vh; }

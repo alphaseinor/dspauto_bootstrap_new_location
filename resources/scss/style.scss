@@ -1,3 +1,29 @@
+@mixin for-phone-only {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) {
+    @content;
+  }
+}
+
 $primary: #ced4da;
 
 body {
@@ -27,35 +53,84 @@ body {
   height: 100vh;
 }
 
+.carousel-image-0 {
+  background: url('../img/thanksgiving.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
 .carousel-image-1 {
-  background: url('../img/malone.jpg');
+  background: url('../img/malone.jpg') no-repeat center fixed;
   background-size: cover;
 }
 
 .carousel-image-2 {
-  background: url('../img/timing.jpg');
+  background: url('../img/maintenance.jpg') no-repeat center fixed;
   background-size: cover;
 }
 
 .carousel-image-3 {
-  background: url('../img/skidplate.jpg');
+  background: url('../img/suspension.jpg') no-repeat center fixed;
   background-size: cover;
 }
 
 .carousel-image-4 {
-  background: url('../img/swaps.jpg');
+  background: url('../img/cold.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
+.carousel-image-5 {
+  background: url('../img/transmission.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
+.carousel-image-6 {
+  background: url('../img/construction.jpg') no-repeat center fixed;
   background-size: cover;
 }
 
 .carousel-caption {
   h2 {
+    font-size: 1.25rem;
     background: #000;
-    opacity: 0.6;
+    opacity: 1;
     border-radius: 0.5rem;
+    @include for-tablet-portrait-up {
+      font-size: 2rem;
+    }
+    @include for-desktop-up {
+      font-size: 4rem;
+    }
+
+    @include for-big-desktop-up {
+      font-size: 7rem;
+    }
   }
   p {
+    font-size: 1rem;
     background: #fff;
-    opacity: 0.6;
+    opacity: 0.8;
     border-radius: 0.5rem;
+
+    @include for-tablet-portrait-up {
+      font-size: 1.5rem;
+    }
+    @include for-desktop-up {
+      font-size: 2rem;
+    }
+
+    @include for-big-desktop-up {
+      font-size: 2.5rem;
+    }
   }
+}
+
+.carousel-nav {
+  background: #3292a6;
+  opacity: 0.9;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.sections {
+  height: 30vh;
 }
