@@ -131,6 +131,11 @@ body {
   border-radius: 0.5rem;
 }
 
-.sections {
-  height: 30vh;
+.contact-section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background: url('../img/map.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
 }
