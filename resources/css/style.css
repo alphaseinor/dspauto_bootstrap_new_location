@@ -80,6 +80,10 @@ body {
   padding: 1rem;
   border-radius: 0.5rem; }
 
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 0.9; }
+
 .contact-section {
   display: flex;
   align-content: center;
